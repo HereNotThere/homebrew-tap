@@ -6,7 +6,7 @@ cask "slashtalk" do
       verified: "github.com/HereNotThere/slashtalk/"
   name "Slashtalk"
   desc "Floating dock for coordination without meetings"
-  homepage "https://slashtalk.onrender.com/"
+  homepage "https://slashtalk.com/"
 
   livecheck do
     url :url
