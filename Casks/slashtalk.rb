@@ -1,12 +1,12 @@
 cask "slashtalk" do
-  version "0.1.0"
-  sha256 "10b9e9e48034fffc901388b69546dfe29f8ffba8f5ff67e6df4bd78ceadfefd7"
+  version "0.1.1"
+  sha256 "aebc2716abbe1f508929dd4868d282fa20a9bdf4368030bb3980c7381f9312e1"
 
   url "https://github.com/HereNotThere/slashtalk/releases/download/%40slashtalk/electron%40#{version}/Slashtalk-mac-universal.dmg",
       verified: "github.com/HereNotThere/slashtalk/"
   name "Slashtalk"
   desc "Floating dock for coordination without meetings"
-  homepage "https://slashtalk.com/"
+  homepage "https://slashtalk.onrender.com/"
 
   livecheck do
     url :url
