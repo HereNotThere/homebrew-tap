@@ -5,7 +5,7 @@ cask "slashtalk" do
   url "https://github.com/HereNotThere/slashtalk/releases/download/%40slashtalk/electron%40#{version}/Slashtalk-mac-universal.dmg",
       verified: "github.com/HereNotThere/slashtalk/"
   name "Slashtalk"
-  desc "Floating dock showing what your team is shipping"
+  desc "Floating dock for coordination without meetings"
   homepage "https://slashtalk.onrender.com/"
 
   livecheck do
