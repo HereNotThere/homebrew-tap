@@ -1,6 +1,6 @@
 cask "slashtalk" do
-  version "0.1.4"
-  sha256 "b476c094e8bffe04c4c098c86eb2fbacf07d6c9134c73fefb2684ea2b4e797de"
+  version "0.1.6"
+  sha256 "cddc79b95c3f3d14755fc859529993875bb268138d1f8dc24dc38c514afcc3eb"
 
   url "https://github.com/HereNotThere/slashtalk/releases/download/%40slashtalk/electron%40#{version}/Slashtalk-mac-universal.dmg",
       verified: "github.com/HereNotThere/slashtalk/"
