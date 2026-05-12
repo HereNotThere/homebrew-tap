@@ -1,8 +1,8 @@
 cask "slashtalk" do
-  version "0.3.0"
-  sha256 "3715e8fcc13eb4b7935d353739a8558a60d7f80b3dcbcc558cd1131bd02db034"
+  version "0.4.0"
+  sha256 "9e7b71c6761b21ed423b9cfb4a92b834f55ef1876129c9ad9f1327bffa99d87f"
 
-  url "https://github.com/HereNotThere/slashtalk/releases/download/%40slashtalk/electron%40#{version}/Slashtalk-mac-universal.dmg",
+  url "https://github.com/HereNotThere/slashtalk/releases/download/%40slashtalk/electron%40#{version}/Slashtalk-mac-arm64.dmg",
       verified: "github.com/HereNotThere/slashtalk/"
   name "Slashtalk"
   desc "Floating dock for coordination without meetings"
@@ -15,6 +15,7 @@ cask "slashtalk" do
   end
 
   auto_updates true
+  depends_on arch: :arm64
   depends_on macos: ">= :big_sur"
 
   app "Slashtalk.app"
